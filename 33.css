@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+  z-index: 2;
+}
+.modal{
+  /* position: absolute; */
+  z-index: 2;
+}
+
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+.carousel-caption {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    text-align: center;
+    color: #fff;
+}
+.carousel-caption > p:first-child{
+font-size: 100px;
+font-family: 'Dancing Script', cursive;
+}
+.carousel-caption button:hover{
+    background-color: red;
+}
+input{
+    width: 200px;
+    height: 40px;
+}
+select{
+    width: 200px;
+    height: 40px;
+}
+form input[type="button"]:hover {
+    background-color: red;
+  }
+  .card-caption{
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    left: 10%;
+    font-weight: 600;
+    font-size: large;
+  }
+  .card-caption p:hover{
+    color: red;
+  }
+  .card-places{
+    position: absolute;
+    top: 5%;
+  }
+  .card-body >p:first-child{
+    font-size: x-large;
+  }
+  
+  .video-overlay >p:first-child{
+    font-family: 'Dancing Script', cursive;
+font-size: xx-large;
+  }
+  .popular-card:hover{
+    transform: translateY(-1rem);
+    transition: all 0.3s;
+  }
+  
+
